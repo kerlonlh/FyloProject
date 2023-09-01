@@ -173,4 +173,7 @@ header nav{
     color: #FFFFFF;
     padding: 3%;
 }
-
+.creditos a{
+    color: rgb(102, 211, 174);
+    text-decoration: none;
+}
