@@ -4,11 +4,18 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .max-width{
     width: 100%;
     max-width: 120rem;
+    padding: 0 4rem;
     margin: 0 auto;
 }
