@@ -1,11 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
 
 .max-width{
-    margin: auto;
-    width: 120rem;
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
 }
