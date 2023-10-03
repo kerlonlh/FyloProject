@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.max-width{
+    margin: auto;
+    width: 120rem;
+}
