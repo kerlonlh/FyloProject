@@ -1,4 +1,5 @@
-@import url('./components/navbar.css');
-
 @import url('./globals.css');
 @import url('./variables.css');
+
+@import url('./components/navbar.css');
+
