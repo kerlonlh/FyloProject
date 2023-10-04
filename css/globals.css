@@ -9,7 +9,7 @@ html {
   }
 body {
     font-size: 1.6rem;
-    margin-top: 15rem;
+    margin-top: 20rem;
 }
   
 ul {
@@ -19,7 +19,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 .max-width{
     width: 100%;
     max-width: 120rem;
