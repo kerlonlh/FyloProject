@@ -11,6 +11,23 @@
     display: flex;
     justify-content: space-between;
 }
+.navbar .navbar__content img{
+    width: 17rem;
+}
+.navbar .navbar__content .navbar__links li{
+    display: inline-block;
+}
+.navbar .navbar__content .navbar__links li:not(:last-of-type){
+    margin-right: 2rem;
+}
+.navbar .navbar__content .navbar__links a{
+    display: inline-block;
+    padding: 1rem;
+}
+.navbar .navbar__content .navbar__links a:hover{
+    color: var(--gray);
+}
+
 .navbar.active{
     box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1);
 }

@@ -4,10 +4,17 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+html {
+    font-size: 62.5%;
+  }
+body {
+    font-size: 1.6rem;
+    margin-top: 15rem;
+}
+  
 ul {
     list-style: none;
 }
-  
 a {
     text-decoration: none;
     color: inherit;
@@ -18,7 +25,4 @@ a {
     max-width: 120rem;
     padding: 0 4rem;
     margin: 0 auto;
-}
-.mt-1{
-    padding-top: 10rem;
 }
