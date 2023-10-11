@@ -31,3 +31,14 @@
 .navbar.active{
     box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.1);
 }
+
+@media only screen and (max-width: 768px){
+    .navbar .navbar__content img{
+        width: 14rem;
+    }
+}
+@media only screen and (max-width: 425px){
+    .navbar .navbar__content img{
+        width: 10rem;
+    }
+}
