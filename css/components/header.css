@@ -1,18 +1,18 @@
-header{
+header .header__content__one{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header .header__left{
+header .header__content__one .header__left{
     max-width: 60rem;
     min-width: 40rem;
     flex: 1;
     padding-right: 2rem;
 }
-header .header__left p{
+header .header__content__one .header__left p{
     padding: 2rem 0 4rem 0;
 }
-header .header__right img{
+header .header__content__one .header__right img{
     max-width: 50rem;
     width: 100%;
     padding-left: 2rem;
@@ -23,11 +23,11 @@ header .header__right img{
         padding: 0;
         margin: 0;
     }
-    header{
+    header .header__content__one{
         flex-direction: column;
         
     }
-    header .header__right{
+    header .header__content__one .header__right{
         padding: 10rem 0;
     }
     
