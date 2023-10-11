@@ -4,3 +4,20 @@
     background-color: var(--secondary-color);
 
 }
+.about .about__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .about__content .about__left{
+    max-width: 60rem;
+    min-width: 40rem;
+    flex: 1;
+    padding-right: 2rem;
+}
+.about .about__content .about__right img{
+    max-width: 50rem;
+    width: 100%;
+    padding-left: 2rem;
+
+}
