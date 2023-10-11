@@ -3,12 +3,6 @@ header .header__content__one{
     justify-content: space-between;
     align-items: center;
 }
-header .header__content__two{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--secondary-color);
-}
 header .header__content__one .header__left{
     max-width: 60rem;
     min-width: 40rem;
@@ -23,9 +17,12 @@ header .header__content__one .header__right img{
     width: 100%;
     padding-left: 2rem;
 }
-
-header svg{
-    padding-top: 10rem;
+header .wave{
+    margin-top: 10rem;
+    min-height: 1rem;
+    width: 100%;
+    position: relative;
+    background-color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 768px){
