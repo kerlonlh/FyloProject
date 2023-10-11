@@ -9,8 +9,7 @@ header .header__content__two{
     align-items: center;
     background-color: var(--secondary-color);
 }
-header .header__content__one .header__left,
-header .header__content__two .header__left{
+header .header__content__one .header__left{
     max-width: 60rem;
     min-width: 40rem;
     flex: 1;
@@ -19,8 +18,7 @@ header .header__content__two .header__left{
 header .header__content__one .header__left p{
     padding: 2rem 0 4rem 0;
 }
-header .header__content__one .header__right img,
-header .header__content__two .header__right img{
+header .header__content__one .header__right img{
     max-width: 50rem;
     width: 100%;
     padding-left: 2rem;
