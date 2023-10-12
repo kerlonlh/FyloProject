@@ -1,16 +1,16 @@
-header .header__content__one{
+header .header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     scroll-margin-top: 20rem;
 }
-header .header__content__one .header__left{
+header .header__content .header__left{
     max-width: 60rem;
     min-width: 40rem;
     flex: 1;
     padding-right: 2rem;
 }
-header .header__content__one .header__right img{
+header .header__content .header__right img{
     max-width: 50rem;
     width: 100%;
     padding-left: 2rem;
@@ -28,11 +28,12 @@ header .wave{
         padding: 0;
         margin: 0;
     }
-    header .header__content__one{
+    header .header__content{
+        display: flex;
         flex-direction: column;
         
     }
-    header .header__content__one .header__right{
+    header .header__content .header__right{
         padding: 10rem 0;
     }
     
