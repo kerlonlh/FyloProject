@@ -18,6 +18,9 @@
 .about .about__content .about__left a{
     color: var(--green);
 }
+.about .about__content .about__left a:hover{
+    color: var(--green-secondary);
+}
 .about .about__content .about__left .about__item{
     background-color: var(--white);
     border-radius: 10px;
