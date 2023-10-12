@@ -2,6 +2,7 @@ header .header__content__one{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    scroll-margin-top: 20rem;
 }
 header .header__content__one .header__left{
     max-width: 60rem;

@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     background-color: var(--secondary-color);
-
+    scroll-margin-top: 20rem;
 }
 .about .about__content{
     display: flex;
@@ -15,9 +15,11 @@
     flex: 1;
     padding-right: 2rem;
 }
+.about .about__content .about__left p{
+    padding: 2rem 0 2rem 0;
+}
 .about .about__content .about__right img{
     max-width: 50rem;
     width: 100%;
     padding-left: 2rem;
-
 }
