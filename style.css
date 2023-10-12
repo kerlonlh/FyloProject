@@ -4,16 +4,6 @@
     padding: 0%;
 }
 
-.See_how::after{
-    content: url(images/icon-arrow.svg);
-}
-.See_how{
-    color: rgb(102, 211, 174);
-}
-.titulo{
-    font-size: 2em;
-    padding-bottom: 15px;
-}
 
 .texto{
     padding-bottom: 15px;
