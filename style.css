@@ -4,25 +4,6 @@
     padding: 0%;
 }
 
-
-
-.foto_perfiul{
-    border-radius: 100%;
-    width: 20%;
-}
-.logo_final{
-    min-width: 20px;
-    max-width: 250px;
-    padding-top: 10%;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    text-align: justify;
-}
-.article_white_colunas_item::before{
-    content: url(images/icon-quotes.svg);
-}
 .See_how::after{
     content: url(images/icon-arrow.svg);
 }
