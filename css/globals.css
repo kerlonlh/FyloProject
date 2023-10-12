@@ -15,6 +15,9 @@ h3{
     font-size: 1.65rem;
     font-weight: 800;
 }
+p{
+    padding: 1rem 0 2rem 0;
+}
 ul {
     list-style: none;
 }

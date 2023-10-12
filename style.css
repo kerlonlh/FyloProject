@@ -4,75 +4,8 @@
     padding: 0%;
 }
 
-/* formatação do header */
-header.header_flex_item{
-    background-color: #FFFFFF;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: space-around;
-    align-items: center;
-    padding: 3%;
-    margin: auto;
-    width:  70%;
-}
-header a{
-    text-decoration: none;
-    padding: 10px;
-}
 
-.logo{
-    flex: 0 0 auto;
-    align-self: flex-start;
-}
 
-header nav{
-    flex: 0 0 auto;
-    align-items: center;
-}
-
-/* formatação do main */
-.article_flex_container{
-    margin: auto;
-    width:  70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3%;
-}
-.article_two_flex_container{
-    background-color: #f9f8fe;  
-}
-.main_flex_item{
-    min-width: 100px;
-    max-width: 400px;
-
-}
-.main_flex_img{
-    min-width: 100px;
-    max-width: 500px;
-}
-.main_article_img{
-    width: 100%;
-}
-
-.curva_entre_articles{
-    width: 100%;
-    margin: auto;
-    vertical-align:  bottom;
-}
-
-.article_3_colunas_item{
-    margin-bottom: 5%;
-}
-.article_white_colunas_item{
-    background-color: #FFFFFF;
-    padding: 5%;
-    min-width: 100px;
-    max-width: 400px;
-    min-height: 150px;
-    max-height: 400px;
-}
 .foto_perfiul{
     border-radius: 100%;
     width: 20%;

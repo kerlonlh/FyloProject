@@ -15,9 +15,6 @@
     flex: 1;
     padding-right: 2rem;
 }
-.about .about__content .about__left p{
-    padding: 1rem 0 2rem 0;
-}
 .about .about__content .about__left .about__item{
     background-color: var(--white);
     border-radius: 10px;
