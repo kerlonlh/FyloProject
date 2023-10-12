@@ -35,7 +35,15 @@ a {
     padding: 0 4rem;
     margin: 0 auto;
 }
-
+@media only screen and (max-width: 1024px) {
+    html {
+      font-size: 60%;
+    }
+  
+    h1 {
+      font-size: 6rem;
+    }
+  }
 @media only screen and (max-width: 768px) {
     html {
       font-size: 60%;
@@ -45,3 +53,9 @@ a {
       padding: 0 2rem;
     }
   }
+  @media only screen and (max-width: 425px) {
+    h1 {
+      font-size: 4.2rem;
+    }
+  }
+  
