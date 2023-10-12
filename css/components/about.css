@@ -15,7 +15,7 @@
     flex: 1;
     padding-right: 2rem;
 }
-.about .about__content .about__left p{
+.about .about__content .about__left > p{
     padding: 2rem 0 2rem 0;
 }
 .about .about__content .about__left .about__item{
@@ -23,9 +23,10 @@
     border-radius: 10px;
     max-width: 40rem;
     margin: 4rem 2rem;
+    padding: 2rem;
 }
-.about__item::before{
-    content: url(images/icon-quotes.svg);
+.about .about__content .about__left .about__item::before{
+    src: "./assets/icon-arrow.svg";
 }
 .about .about__content .about__right img{
     max-width: 50rem;
