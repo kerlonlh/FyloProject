@@ -18,6 +18,15 @@
 .about .about__content .about__left p{
     padding: 2rem 0 2rem 0;
 }
+.about .about__content .about__left .about__item{
+    background-color: var(--white);
+    border-radius: 10px;
+    max-width: 40rem;
+    margin: 4rem 2rem;
+}
+.about__item::before{
+    content: url(images/icon-quotes.svg);
+}
 .about .about__content .about__right img{
     max-width: 50rem;
     width: 100%;
