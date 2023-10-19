@@ -5,9 +5,14 @@ footer{
 }
 footer .footer__content{
     display: flex;
+    justify-content: space-between;
 }
 footer .footer__content .footer__left{
     max-width: 60rem;
     min-width: 40rem;
-    flex: 1;
+    
+}
+footer .footer__content .footer__right{
+    max-width: 60rem;
+    min-width: 40rem;
 }
