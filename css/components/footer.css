@@ -37,6 +37,6 @@ footer .footer__copyright p{
     footer .footer__content .footer__left,
     footer .footer__content .footer__right{
     max-width: 60rem;
-    min-width: 20rem;
+    min-width: 30rem;
 }
 }
