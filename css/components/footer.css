@@ -12,7 +12,16 @@ footer .footer__content .footer__left{
     min-width: 40rem;
     
 }
+footer .footer__content .footer__left p{
+   
+}
 footer .footer__content .footer__right{
     max-width: 60rem;
     min-width: 40rem;
+}
+footer .footer__content .footer__right ul li{
+    padding-top: 2rem;
+}
+footer .footer__content .footer__right ul li a:hover{
+    color: var(--gray);
 }
