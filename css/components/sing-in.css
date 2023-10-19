@@ -15,8 +15,5 @@
     padding-right: 2rem;
 }
 .sing-in .sing-in__content .sing-in__right{
-    max-width: 60rem;
-    min-width: 40rem;
-    flex: 1;
-    padding-left: 2rem;
+    max-width: 60rem;  
 }
