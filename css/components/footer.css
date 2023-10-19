@@ -3,3 +3,11 @@ footer{
     padding-top: 5rem;
     color: var(--white);
 }
+footer .footer__content{
+    display: flex;
+}
+footer .footer__content .footer__left{
+    max-width: 60rem;
+    min-width: 40rem;
+    flex: 1;
+}
