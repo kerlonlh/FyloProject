@@ -2,3 +2,12 @@
     background-color: var(--terciary-color);
     color: var(--white);
 }
+.sing-in .sing-in__content{
+    display: flex;
+}
+.sing-in .sing-in__content .sing-in__left{
+
+}
+.sing-in .sing-in__content .sing-in__right{
+
+}
