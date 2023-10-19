@@ -32,3 +32,11 @@ footer .footer__copyright{
 footer .footer__copyright p{
     padding: 1rem;
 }
+
+@media only screen and (max-width: 768px){
+    footer .footer__content .footer__left,
+    footer .footer__content .footer__right{
+    max-width: 60rem;
+    min-width: 20rem;
+}
+}

@@ -18,3 +18,11 @@
 .sing-in .sing-in__content .sing-in__right{
     max-width: 60rem;  
 }
+
+@media only screen and (max-width: 768px){
+    .sing-in .sing-in__content{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
