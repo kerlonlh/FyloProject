@@ -1,6 +1,7 @@
 .sing-in{
     background-color: var(--terciary-color);
     color: var(--white);
+    padding: 2rem 0 3rem 0;
 }
 .sing-in .sing-in__content{
     display: flex;
