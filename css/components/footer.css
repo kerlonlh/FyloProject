@@ -7,22 +7,19 @@ footer .footer__content{
     display: flex;
     justify-content: space-between;
 }
-footer .footer__content .footer__left{
-    max-width: 60rem;
-    min-width: 40rem;
-    
-}
-footer .footer__content .footer__left img{
-   padding-bottom: 2rem;
-}
+footer .footer__content .footer__left,
 footer .footer__content .footer__right{
     max-width: 60rem;
     min-width: 40rem;
 }
+footer .footer__content .footer__left img{
+   padding-bottom: 2rem;
+}
 footer .footer__content .footer__right ul li{
     padding-top: 2.5rem;
 }
-footer .footer__content .footer__right ul li a:hover{
+footer .footer__content .footer__right ul li a:hover,
+footer .footer__copyright p a:hover{
     color: var(--gray);
 }
 footer .footer__copyright{
