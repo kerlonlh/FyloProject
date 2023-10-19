@@ -12,16 +12,26 @@ footer .footer__content .footer__left{
     min-width: 40rem;
     
 }
-footer .footer__content .footer__left p{
-   
+footer .footer__content .footer__left img{
+   padding-bottom: 2rem;
 }
 footer .footer__content .footer__right{
     max-width: 60rem;
     min-width: 40rem;
 }
 footer .footer__content .footer__right ul li{
-    padding-top: 2rem;
+    padding-top: 2.5rem;
 }
 footer .footer__content .footer__right ul li a:hover{
     color: var(--gray);
+}
+footer .footer__copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+footer .footer__copyright p{
+    padding: 1rem;
 }
