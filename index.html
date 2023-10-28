@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <title>FyloProject</title>
     <style>
         .about .about__content .about__left .about__item::before{
-            content: url(assets/icon-quotes.svg);
+        content: url(assets/icon-quotes.svg);
         }
         .about .about__content .about__left a::after{
             content: url(assets/icon-arrow.svg);
@@ -52,9 +52,9 @@
                 <p class="texto">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
                 <form method="POST" action="#">
                     <div>
-                        <input type="email" placeholder="Enter your email..." required>
+                        <input class="input" type="email" placeholder="Enter your email..." required>
                     </div>
-                    <button>Get Started</button>
+                    <button class="btn">Get Started</button>
                 </form>
             </div>
             <div class="header__right">
@@ -88,37 +88,43 @@
             </div>
         </div>
     </article>
-    <article id="SingIn" class="sing-in">
-        <div class="sing-in__content max-width">
-            <div class="sing-in__left">
+    <div id="SingIn" class="singin">
+        <div class="singin__content max-width">
+            <div class="singin__left">
                 <h2>Getearly access today</h2>
                 <p>It only takes a minute to sing up and our free started tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
             </div>
-            <div class="sing-in__right">
-                <input class="input_email" type="text"  name="nome" placeholder="email@exemple.com" ><br>
-                <button class="button_email" type="button" name="nome">Get Started For Free</button>
+            <div class="singin__right">
+                <form method="POST" action="#">
+                    <div>
+                        <input class="input" type="email" placeholder="email@exemple.com" required>
+                    </div>
+                    <button class="btn">Get Started For Free</button>
+                </form>
             </div>
         </div>
-    </article>
+    </div>
     <footer>
-        <div class="footer__content max-width">
-            <div class="footer__left">
-                <img src="assets/logo.svg" alt="">
-                <p class="icon__phone">Phone: +1-543-123-4567</p>
-                <p class="icon__email">example@fylo.com</p>
+        <div class="footer max-width">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <img src="assets/logo.svg" alt="">
+                    <p class="icon__phone">Phone: +1-543-123-4567</p>
+                    <p class="icon__email">example@fylo.com</p>
+                </div>
+                <div class="footer__right">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer__right">
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
+            <div class="footer__copyright max-width">
+                <p>Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>.</p> 
+                <p>Developed by <a href="https://www.linkedin.com/in/kerlon-leonardi-hinterholz-958872285/">Kerlon Hinterholz</a>.</p> 
             </div>
-        </div>
-        <div class="footer__copyright">
-            <p>Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>.</p> 
-            <p>Developed by <a href="https://www.linkedin.com/in/kerlon-leonardi-hinterholz-958872285/">Kerlon Hinterholz</a>.</p> 
         </div>
     </footer>
     <script src="scripts/index.js"></script>

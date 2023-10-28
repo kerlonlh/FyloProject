@@ -1,0 +1,24 @@
+.singin{
+    background-color: var(--terciary-color);
+    color: var(--white);
+    padding-bottom: 5rem;
+    scroll-margin-top: 20rem;
+}
+.singin .singin__content{
+    display: flex;
+    justify-content: space-between;
+}
+.singin .singin__content .singin__left{
+    max-width: 60rem; 
+}
+.singin .singin__content .singin__right{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    .singin .singin__content{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}

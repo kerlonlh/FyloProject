@@ -22,15 +22,12 @@ header .wave{
     position: relative;
     background-color: var(--secondary-color);
 }
-
 @media only screen and (max-width: 768px){
     header .header__content{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
     header .header__content .header__right{
         padding: 10rem auto;
     }
-    
 }
