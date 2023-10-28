@@ -28,9 +28,6 @@
     margin: 4rem 2rem;
     padding: 2rem;
 }
-.about .about__content .about__left .about__item::before{
-    src: "./assets/icon-arrow.svg";
-}
 .about .about__content .about__left .about__item .about__item-internal{
     display: flex;
     flex-flow: row wrap;
