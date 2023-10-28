@@ -51,11 +51,7 @@
     .navbar .navbar__content .navbar__mobile img{
         width: 3.6rem;
         height: 3.6rem;
+        cursor: pointer;
     }
 
-}
-@media only screen and (max-width: 425px){
-    .navbar .navbar__content img{
-        width: 10rem;
-    }
 }
