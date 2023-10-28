@@ -1,16 +1,17 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
 }
+
 html {
-    font-size: 62.5%;
-  }
+  font-size: 62.5%;
+}
 body {
-    font-size: 1.6rem;
-    margin-top: 15rem;
+  font-size: 1.6rem;
+  margin-top: 15rem;
 }
 ul {
   list-style: none;
@@ -22,49 +23,49 @@ a {
   font-weight: 900rem;
 }
 h2 {
-    font-size: 4rem;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-    font-weight: 800;
+  font-size: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  font-weight: 800;
 }
 h3 {
-    font-size: 1.65rem;
-    font-weight: 800;
+  font-size: 1.65rem;
+  font-weight: 800;
 }
 p{
-    padding: 1rem 0 3rem 0;
-    font-size: 1.8rem;
-    font-weight: 500;
+  padding: 1rem 0 3rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
-.max-width{
-    width: 100%;
-    max-width: 120rem;
-    padding: 0 4rem;
-    margin: 0 auto;
+.max-width {
+  width: 100%;
+  max-width: 120rem;
+  padding: 0 4rem;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1024px) {
-    html {
-      font-size: 60%;
-    }
-  
-    h1 {
-      font-size: 6rem;
-    }
+  html {
+    font-size: 60%;
   }
+  
+  h1 {
+    font-size: 6rem;
+  }
+}
 @media only screen and (max-width: 768px) {
-    html {
-      font-size: 58%;
-    }
+  html {
+    font-size: 58%;
+  }
   
-    .max-width {
-      padding: 0 2rem;
-    }
+  .max-width {
+    padding: 0 2rem;
   }
+}
   @media only screen and (max-width: 425px) {
-    h1 {
-      font-size: 4.2rem;
-    }
+  h1 {
+    font-size: 4.2rem;
   }
+}
   
