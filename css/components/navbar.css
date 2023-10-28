@@ -36,7 +36,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .navbar .navbar__content img{
         width: 14rem;
         cursor: pointer;
