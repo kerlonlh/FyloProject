@@ -44,6 +44,15 @@
     .navbar .navbar__content .navbar__links{
         display: none;
     }
+    .navbar .navbar__content .navbar__mobile{
+        display: flex;
+        align-items: center;
+    }
+    .navbar .navbar__content .navbar__mobile img{
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+
 }
 @media only screen and (max-width: 425px){
     .navbar .navbar__content img{
