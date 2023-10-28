@@ -41,8 +41,12 @@
             <div class="header__left">
                 <h2 class="titulo">All your files in one secure location, accessible anywhere.</h2>
                 <p class="texto">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-                <input class="input_email" type="text" name="nome" placeholder="Enter your e-mail">
-                <button class="button_email" type="button" name="nome">Get started</button>
+                <form method="POST" action="#">
+                    <div>
+                        <input type="email" placeholder="Enter your email..." required>
+                    </div>
+                    <button>Get Started</button>
+                </form>
             </div>
             <div class="header__right">
                 <img src="assets/illustration-1.svg" alt="">
