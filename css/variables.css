@@ -7,4 +7,8 @@
     --terciary-color: #575989;
     --footer-color: #080c55;
     --color-button:rgb(55, 55, 206);
+
+    --sombra-primary: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+
+    --font-family: 'DM Sans', sans-serif;
 }
