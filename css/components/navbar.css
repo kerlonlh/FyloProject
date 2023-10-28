@@ -53,5 +53,10 @@
         height: 3.6rem;
         cursor: pointer;
     }
+    .navbar .navbar__content .navbar__mobile.active .mobile__links{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+    }
 
 }
