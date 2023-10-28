@@ -2,7 +2,7 @@
     background-color: var(--terciary-color);
     color: var(--white);
     padding-bottom: 5rem;
-    scroll-margin-top: 10rem;
+    scroll-margin-top: 8rem;
 }
 .singin .singin__content{
     display: flex;
