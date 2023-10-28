@@ -4,5 +4,5 @@ const button = document.querySelector('.burguer');
 
 button.addEventListener('click', function() {
     mobileNavbar.classList.toggle('active')
-}
-)
+})
+
