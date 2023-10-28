@@ -11,31 +11,33 @@ body {
     font-size: 1.6rem;
     margin-top: 15rem;
 }
-h2{
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h2 {
     font-size: 3rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
 }
-h3{
+h3 {
     font-size: 1.65rem;
     font-weight: 800;
 }
 p{
     padding: 1rem 0 3rem 0;
 }
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
+
 .max-width{
     width: 100%;
     max-width: 120rem;
     padding: 0 4rem;
     margin: 0 auto;
 }
+
 @media only screen and (max-width: 1024px) {
     html {
       font-size: 60%;
@@ -47,7 +49,7 @@ a {
   }
 @media only screen and (max-width: 768px) {
     html {
-      font-size: 60%;
+      font-size: 58%;
     }
   
     .max-width {

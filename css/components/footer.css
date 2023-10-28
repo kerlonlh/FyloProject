@@ -6,6 +6,7 @@ footer{
 footer .footer__content{
     display: flex;
     justify-content: space-between;
+    max-width: 47rem;
 }
 footer .footer__content .footer__left,
 footer .footer__content .footer__right{
