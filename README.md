@@ -1,5 +1,5 @@
 # FyloProject
- Atividade da Frontend Mentor
+ Atividade da Frontend Mentor.
 
 
  ## O que aprendi com esse projeto?
